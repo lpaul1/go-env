@@ -31,6 +31,7 @@ func main() {
 	http.HandleFunc("/crash", crashHandler)
 	http.HandleFunc("/headers", headersHandler)
 	addr := ":" + os.Getenv("PORT")
+	fmt.Printf("Stackato PaaS application environment settings: %v\n", addr)
 	fmt.Printf("Listening on %v\n", addr)
 	log.Fatal(http.ListenAndServe(addr, nil))
 }
