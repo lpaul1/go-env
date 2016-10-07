@@ -11,3 +11,5 @@ instance the app is running on.
 # Requirements
 
 This application requires Stackato 2.8 or the later.
+
+#Test with Jenkins Git and CLoudFoudry plugins.
